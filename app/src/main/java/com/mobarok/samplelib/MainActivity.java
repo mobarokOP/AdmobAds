@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Toaster.showToast(this, "Hello");
+        Toaster.showShortToast(this, "Hello");
     }
 }
